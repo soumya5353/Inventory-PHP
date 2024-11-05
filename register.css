@@ -1,0 +1,58 @@
+/* Form Container */
+form {
+    max-width: 400px; /* Limit form width */
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* General spacing for inputs and labels */
+label {
+    display: block; /* Labels take up the full width */
+    margin-bottom: 0.5em; /* Space between label and input */
+    color: #333; /* Dark color for text */
+    font-weight: 500; /* Bold labels */
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Space inside inputs */
+    margin-bottom: 1.5em; /* Space between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for inputs */
+   
+}
+
+/* Textarea specific styling */
+textarea {
+    height: 100px; /* Set height for textarea */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+
+/* Button styling */
+.button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Space inside button */
+    background-color: #007bff; /* Primary color for button */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for button */
+    font-weight: 600; /* Bold text */
+    cursor: pointer; /* Pointer cursor */
+
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
